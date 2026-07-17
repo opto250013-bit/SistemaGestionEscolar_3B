@@ -27,7 +27,7 @@ public class conexionDB {
             //GUARDAR CONEXIÓN EN EL OBJETO CONNECTION
             conn = DriverManager.getConnection(URL, USER, PASS);
             System.out.print("Conexión exitosa: ");
-            
+            System.out.println("Cambio en el repositorio local");
         }catch(SQLException e){
             
             //MANEJAR EL ERROR DE SQL
